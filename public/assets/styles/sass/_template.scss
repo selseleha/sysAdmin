@@ -1,0 +1,42 @@
+@import "config";
+
+@font-face {
+  font-family: 'FontAwesome';
+  src: url('../../Icons/webfonts/fontawesome-webfont.svg') format("svg"), url('../../Icons/webfonts/fontawesome-webfont.eot') format("eot"), url('../../Icons/webfonts/fontawesome-webfont.ttf') format("ttf"), url('../../Icons/webfonts/fontawesome-webfont.woff') format("woff");
+  /* Saf3â€”5, Chrome4+, FF3.5, Opera 10+ */
+}
+
+
+
+@font-face {
+  font-family: 'lalezar';
+  src: url('../../font/Lalezar.eot?#') format("eot"), url('../../font/Lalezar.woff') format("woff"), url('../../font/Lalezar.ttf') format("truetype");
+  /* Saf3â€”5, Chrome4+, FF3.5, Opera 10+ */
+}
+@font-face {
+  font-family: 'iransans';
+  src: url('../../font/IRANSansWeb.eot?#') format("eot"), url('../../font/IRANSansWeb.woff') format("woff"), url('../../font/IRANSansWeb.ttf') format("truetype");
+  /* Saf3â€”5, Chrome4+, FF3.5, Opera 10+ */
+}
+
+@font-face {
+  font-family: 'iransansBold';
+  src: url('../../font/IRANSansWeb_Bold.eot?#') format("eot"), url('../../font/IRANSansWeb_Bold.woff') format("woff"), url('../../font/IRANSansWeb_Bold.ttf') format("truetype");
+  /* Saf3â€”5, Chrome4+, FF3.5, Opera 10+ */
+}
+
+@font-face {
+  font-family: 'iranNastaliq';
+  src: url("../../font/IranNastaliq.eot?#") format("eot"), url('../../font/IranNastaliq.woff') format("woff"), url('../../font/IranNastaliq.ttf') format("truetype");
+}
+
+.text-lalezar{
+  font-family: lalezar;
+}
+
+.text-iransans{
+  font-family: iransans !important;
+}
+.text-iransansBold{
+  font-family: iransansBold;
+}

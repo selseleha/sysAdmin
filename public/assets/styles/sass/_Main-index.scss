@@ -1,0 +1,262 @@
+@import "template";
+
+
+footer{
+ .social-network{
+   a{
+     img {
+       width: 50px;
+       height: 50px;
+     }
+   }
+ }
+  background: rgb(0,80,118);
+  color: white;
+
+  button{
+    background: rgb(0,97,43);
+    color: white;
+    border-radius: 15px;
+    border: none !important;
+  }
+}
+
+body {
+  font-family: iransans;
+}
+
+
+@media screen  and(max-width: 768px){
+  .col-md-4,.col-md-8{
+    padding-right: 0px !important;
+    padding-left: 0px !important;
+  }
+  .col-lg-2{
+    padding-right: 15px !important;
+    padding-left: 15px !important;
+  }
+}
+.top-header {
+  background: rgb(0, 125, 191);
+  border-bottom: 1px solid gray;
+  font-family: 'iranNastaliq';
+  font-size: 2em;
+}
+@media screen and (max-width: 500px) {
+
+  .top-header{
+    font-size: 1.5em !important;
+  }
+}
+
+nav {
+.nav-link{
+  font-family: 'iranNastaliq';
+  font-size: 1.5em;
+}
+  @media screen and (max-width: 500px) {
+    img{
+      width: 3.5em !important;
+      height: 3.5em !important;
+      top:-35px !important;
+    }
+
+  }
+  @media screen and (max-width: 350px) {
+    img{
+      width: 3em !important;
+      height: 3em !important;
+
+    }
+
+  }
+
+  background: rgb(0, 148, 225);
+  img {
+    width: 5.5em;
+    height: 5.5em;
+    position: absolute;
+    top: -52px;
+    left: 4%;
+
+  }
+  a {
+    color: white;
+  }
+}
+
+.index {
+
+  .carousel-header {
+    background: rgb(0, 148, 225);
+    border: 1px solid $bg-gray;
+  }
+
+  .box {
+    box-shadow: 1px 1px 4px 1px #808080a8;
+    margin-top: .5em;
+    margin-bottom: .5em;
+    img {
+      height: 7em !important;
+    }
+  }
+
+  .left-side {
+    border: 1px solid $bg-gray;
+  }
+
+  .namaz-jome {
+    border: 1px solid $bg-gray;
+    .fa-circle {
+      color: rgb(0, 97, 43);
+    }
+    .left-icon {
+      .number {
+        position: relative;
+        top: -30px;
+        color: red;
+        left: 12px
+      }
+    }
+    .box2 {
+      border-bottom: 1px solid $bg-gray;
+      img {
+        height: 7em;
+      }
+      p {
+        font-size: .9em;
+        line-height: 1.5em;
+      }
+    }
+  }
+
+  .people-order {
+    .card {
+      box-shadow: 0px 0px 4px 1px #808080a8;
+    }
+
+    @media only screen and (max-width: 430px) {
+
+      .header {
+        width: 10em !important;
+        font-size: .9em;
+      }
+    }
+    .header {
+      border-bottom-left-radius: 50%;
+      border-bottom-right-radius: 50%;
+      background: rgb(0, 148, 225);
+      border: 1px solid gray;
+      width: 20em;
+      color: white
+    }
+
+    border: 1px solid $bg-gray;
+    img {
+      height: 10em;
+    }
+  }
+
+  //
+  //.class1{
+  //  .MultiCarousel { float: left; overflow: hidden; padding: 15px; width: 100%; position:relative; }
+  //  .MultiCarousel .MultiCarousel-inner { transition: 1s ease all; float: left; }
+  //  .MultiCarousel .MultiCarousel-inner .item { float: left;}
+  //  .MultiCarousel .MultiCarousel-inner .item > div { text-align: center; padding:10px; margin:10px; background:#f1f1f1; color:#666;}
+  //  .MultiCarousel .leftLst, .MultiCarousel .rightLst { position:absolute; border-radius:50%;top:calc(50% - 20px); }
+  //  .MultiCarousel .leftLst { left:0; }
+  //  .MultiCarousel .rightLst { right:0; }
+  //
+  //  .MultiCarousel .leftLst.over, .MultiCarousel .rightLst.over { pointer-events: none; background:#ccc; }
+  //}
+
+  //https://www.codeply.com/go/WEbiqQvGhy
+
+  .carousel-item-prev,
+  .carousel-item-next,
+  .carousel-item.active {
+    display: flex;
+  }
+
+  /* smoother transitions */
+  .carousel-inner > .carousel-item.next.left,
+  .carousel-inner > .carousel-item.prev.right {
+    transition: all 1s ease;
+  }
+  .carousel-inner {
+    //border: 1px solid $bg-gray;
+    padding: 15px;
+  }
+
+  .prev {
+    position: relative;
+    //top: 9em;
+    //left: -2em;
+    z-index: 999;
+    border-radius: 50%;
+    width: 1.7em;
+    height: 1.7em;
+    color: white;
+    background: $bg-blue;
+    padding: 3px;
+
+  }
+  .next {
+    position: relative;
+    //top: 9em;
+   //left: 53.5em;
+    z-index: 999;
+    color: white;
+    background: $bg-blue;
+    border-radius: 50%;
+    width: 1.7em;
+    height: 1.7em;
+
+    padding: 3px;
+  }
+  .carousel-item {
+    .card {
+      border-radius: 10px;
+      box-shadow: 1px 1px 4px 1px #808080a8;
+    }
+
+    direction: rtl;
+    img {
+      width: 9em;
+      height: 9em;
+      
+    }
+    a {
+      background: $bg-blue;
+      color: white !important;
+      border-radius: 15px;
+      width: fit-content;
+      width: -moz-fit-content;
+    }
+  }
+
+  @media only screen and (max-width: 500px)
+  {
+    .flex-col-sm{
+      flex-direction: column !important;
+      align-items: center;
+    }
+  }
+
+  .top-carousel{
+    border: 1px solid $bg-gray;
+    .next,.prev{
+      background:$bg-blue;
+      color: white;
+      border-radius: 50%;
+      width: 20px;
+      height: 20px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+  }
+};
+
+
+
