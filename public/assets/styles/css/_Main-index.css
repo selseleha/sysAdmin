@@ -22,7 +22,7 @@
   font-family: iransansBold; }
 
 footer {
-  background: #cc4853;
+  background: #5b4d4e;
   color: white; }
   footer .social-network a img {
     width: 50px;
@@ -45,8 +45,8 @@ body {
     padding-right: 15px !important;
     padding-left: 15px !important; } }
 .top-header {
-  background:#cc4853;
-  border-bottom: 1px solid gray;
+  background: #4b66a7;
+  border-bottom: 1px solid #2e72b1;
   font-family: 'iransans';
   font-size: 1em; }
 
@@ -54,7 +54,7 @@ body {
   .top-header {
     font-size: 1em !important; } }
 nav {
-  background: #cc4853; }
+  background: #668ce3; }
   nav .nav-link {
     font-family: 'iransans';
     font-size: 1em; }
@@ -80,7 +80,7 @@ nav {
     direction: rtl;
   /* smoother transitions */ }
   .index .carousel-header {
-    background: #cc4853;
+    background: #706566;
     border: 1px solid #dfdfdf; }
   .index .box {
     box-shadow: 1px 1px 4px 1px #808080a8;
@@ -97,7 +97,7 @@ nav {
     .index .namaz-jome .left-icon .number {
       position: relative;
       top: -30px;
-      color: red;
+      color: #796a6a;
       left: 12px; }
     .index .namaz-jome .box2 {
       border-bottom: 1px solid #dfdfdf; }
@@ -126,7 +126,7 @@ nav {
   .index .carousel-item-prev,
   .index .carousel-item-next,
   .index .carousel-item.active {
-    display: flex; 
+    display: flex;
 	justify-content: center;}
   .index .carousel-inner > .carousel-item.next.left,
   .index .carousel-inner > .carousel-item.prev.right {
@@ -181,9 +181,9 @@ nav {
       display: flex;
       justify-content: center;
       align-items: center; }
-	  
+
 	  .bbbutton{
-		  background-image: linear-gradient(to right, #ef6430, #a82f77);
+		  background-image: linear-gradient(to right, #989191, #3e3c3c);
 		  margin-top: 8px;
 		  height: 47px;
 

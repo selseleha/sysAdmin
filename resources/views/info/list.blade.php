@@ -6,7 +6,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>شورای مشورتی جوانان</title>
+    <title>سامانه ثبت وقایع و شواهد</title>
     <!-- Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet">
     <!-- Styles -->
@@ -29,7 +29,7 @@
                     <div class="card-header">
                         <a href={{"/infos/".$new->id}}>{{$new->title}}</a>
                     </div>
-        
+
                     <div style="padding: 0px;" class="card-body">
                       <a href={{"/infos/".$new->id}}>  <img style="width: 100%;height: 43%;" src="/{{$new->image}}" > </a>
                         <p style="padding-top: 10px;"> منتشرکننده: {{$new->email}}</p>

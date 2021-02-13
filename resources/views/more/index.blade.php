@@ -48,20 +48,21 @@
             <div class="col-lg-6 offset-lg-3 col-md-12 offset-md-0 col-sm-12 col-xs-12">
                 <div class="main-header-content">
 
-                    <h1>سامانه ی هوشمند اطلاع رسانی مدیران</h1>
+                    <h1>سامانه ثبت وقایع و شواهد</h1>
+
+                    <p style="text-align:center"><span style="font-size:22px">ارائه پروژه کارشناسی</span></p>
+
+                    <p style="text-align:center"><span style="font-size:18px">دانشجو:مینو زمانی</span></p>
+
+                    <p style="text-align:center"><span style="font-size:18px">دانشگاه : علم و فرهنگ&nbsp; &nbsp; &nbsp;استاد راهنما : استاد صالحی</span></p>
 
 
-
-
-
-                    <a data-scroll href="/index" class="btn btn-purple btn-lg">همه صفحات را بررسی کنید!</a>
+                    <a data-scroll href="/index" class="btn btn-purple btn-lg">بررسی پروژه</a>
                 </div>
             </div>
         </div>
     </div>
 
-    <img class="img-bottom" src="/front/img/group-bottom.png" alt="friends">
-    <img class="img-rocket" src="/front/img/rocket.png" alt="rocket">
 </div>
 
 

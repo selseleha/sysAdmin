@@ -406,7 +406,7 @@
 }
 
 .account-settings a:hover {
-    color: #ff5e3a;
+    color: #3affa3;
 }
 
 .account-settings a>* {
@@ -670,7 +670,7 @@
     right: 0;
     bottom: 0;
     left: 0;
-    background-color: rgba(255, 94, 58, 0.95);
+    background-color: rgb(58, 255, 163);
     opacity: 1;
     z-index: auto;
 }
@@ -680,7 +680,7 @@
 }
 
 .landing-page .content-bg {
-    background-color: rgba(255, 94, 58, 0.95);
+    background-color: rgb(58, 255, 163);
     animation-name: sidedownscroll;
 }
 
@@ -1032,8 +1032,8 @@
         padding: 10px 25px;
     }
     .profile-menu.expanded-menu li a {
-        color: #ff5e3a;
-        fill: #ff5e3a;
+        color: #3affa3;
+        fill: #3affa3;
     }
     .profile-menu.expanded-menu li a:hover {
         opacity: .7;
@@ -1200,7 +1200,7 @@
 }
 
 .mobile-app .left-menu a:hover {
-    color: #ff5e3a;
+    color: #3affa3;
 }
 
 .mobile-app .fixed-sidebar-left.sidebar--large {
@@ -1336,7 +1336,7 @@
 }
 
 .about-olympus a:hover {
-    color: #ff5e3a;
+    color: #3affa3;
 }
 
 .mobile-app-tabs {
@@ -1377,7 +1377,7 @@
 .mobile-app-tabs .nav-link.active {
     background-color: transparent;
     border-color: transparent;
-    border-bottom-color: #ff5e3a;
+    border-bottom-color: #3affa3;
 }
 
 .mobile-app-tabs .nav-link.active svg {
@@ -1421,7 +1421,7 @@
 }
 
 .nav-tabs .app-tabs-close:hover svg {
-    fill: #ff5e3a;
+    fill: #3affa3;
 }
 
 @media (max-width: 768px) {

@@ -46,38 +46,25 @@
                 <div class="nav-container">
                     <ul id="main-menu-navigation" data-menu="menu-navigation" class="navigation navigation-main">
 
-                        <li class="has-sub nav-item"><a href="#"><i class="icon-notebook"></i><span data-i18n="" class="menu-title">جدول داده</span></a>
-                            <ul class="menu-content">
-                                <li><a href="dt-basic-initialization.html" class="menu-item">آغازگر اولیه</a>
-                                </li>
-                                <li><a href="dt-advanced-initialization.html" class="menu-item">آغازگر پیشرفته</a>
-                                </li>
-                                <li><a href="dt-styling.html" class="menu-item">ظاهر طراحی شده</a>
-                                </li>
-                                <li><a href="dt-data-sources.html" class="menu-item">منابع داده</a>
-                                </li>
-                                <li><a href="dt-api.html" class="menu-item">رابط‌ نرم‌افزار</a>
-                                </li>
-                            </ul>
+
+                        <li class=" nav-item"><a href="{{ url('/home') }}"><i class="icon-support"></i><span data-i18n="" class="menu-title">خانه</span></a>
                         </li>
 
-                        <li class=" nav-item"><a href="https://pixinvent.ticksy.com/"><i class="icon-support"></i><span data-i18n="" class="menu-title">پشتیبانی</span></a>
+                    </ul>
+                    <ul id="main-menu-navigation" data-menu="menu-navigation" class="navigation navigation-main">
+
+
+                        <li class=" nav-item"><a href="{{ url('/adds/create') }}"><i class="icon-support"></i><span data-i18n="" class="menu-title">اطلاعات تکمیلی کاربر</span></a>
                         </li>
 
-                        <li class="has-sub nav-item"><a href="#"><i class="icon-notebook"></i><span data-i18n="" class="menu-title">کاربران</span></a>
-                            <ul class="menu-content">
-                                <li><a href="/" class="menu-item">آغازگر اولیه</a>
-                                </li>
-                                <li><a href="dt-advanced-initialization.html" class="menu-item">آغازگر پیشرفته</a>
-                                </li>
-                                <li><a href="dt-styling.html" class="menu-item">ظاهر طراحی شده</a>
-                                </li>
-                                <li><a href="dt-data-sources.html" class="menu-item">منابع داده</a>
-                                </li>
-                                <li><a href="dt-api.html" class="menu-item">رابط‌ نرم‌افزار</a>
-                                </li>
-                            </ul>
+                    </ul>
+
+                    <ul id="main-menu-navigation" data-menu="menu-navigation" class="navigation navigation-main">
+
+
+                        <li class=" nav-item"><a href="{{ url('/info/create') }}"><i class="icon-support"></i><span data-i18n="" class="menu-title">ایجاد پست جدید</span></a>
                         </li>
+
                     </ul>
                 </div>
             </div>

@@ -4,7 +4,7 @@
 <!-- Mirrored from logicgroup.ir/olympus/theme/Mobile-34-YourAccount-ChatMessages.html by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 09 Feb 2019 15:19:09 GMT -->
 <head>
 
-    <title>حساب شخصی - گفت و گو و پیام ها</title>
+    <title>سامانه ثبت وقایع و شواهد</title>
 
     <!-- Required meta tags always come first -->
     <meta charset="utf-8">
@@ -85,14 +85,7 @@
     <div class="row">
         <div class="col-xl-12 order-xl-2 col-lg-9 order-lg-2 col-md-12 order-md-1 col-sm-12 col-xs-12">
             <div class="ui-block">
-                <div class="ui-block-title">
-                    <h6 class="title">گفت و گو / پیام ها</h6>
-                    <a href="#" class="more">
-                        <svg class="olymp-three-dots-icon">
-                            <use xlink:href="icons/icons.svg#olymp-three-dots-icon"></use>
-                        </svg>
-                    </a>
-                </div>
+
 
                 <div class="row">
                     <div class="container">

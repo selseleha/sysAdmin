@@ -2250,7 +2250,7 @@ fieldset[disabled] .checkbox input[type=checkbox],
 }
 
 .bg-account:before {
-    background-image: url("../img/top-header3.png");
+    background-image: url("../img/top-header4.png");
 }
 
 .bg-birthday:before {
@@ -2278,7 +2278,7 @@ fieldset[disabled] .checkbox input[type=checkbox],
 }
 
 .bg-landing:before {
-    background-image: url("../img/landing-bg.jpg");
+    background-image: url("../img/top-header4.png");
 }
 
 .main-header-content {

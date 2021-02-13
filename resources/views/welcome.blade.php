@@ -4,7 +4,7 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <title>شورای مشورتی  جوانان</title>
+        <title>سامانه ثبت وقایع و شواهد</title>
 
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet">
@@ -53,7 +53,7 @@
                 padding: 0 25px;
                 font-size: 13px;
                 font-weight: 600;
-                
+
                 text-decoration: none;
                 text-transform: uppercase;
             }
@@ -81,7 +81,7 @@
 
             <div class="content">
                 <div class="title m-b-md">
-                    شورای مشورتی جوانان
+                    سامانه ثبت وقایع و شواهد
                 </div>
 
                 <div class="links">

@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>شورای مشورتی  جوانان</title>
+    <title>سامانه ثبت وقایع و شواهد</title>
 
     <!-- Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet">
@@ -87,7 +87,7 @@
 <div class="content">
 
 
-    <div class="top-header text-white text-center py-3">سامانه هوشمند مدیران و مردم</div>
+    <div class="top-header text-white text-center py-3">سامانه ثبت وقایع و شواهد</div>
     <nav style="direction: rtl;" class="navbar navbar-expand-lg text-right ">
 
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
@@ -150,7 +150,7 @@
                 <p class="text-right">
                     یکی از مواردی که همیشه مورد بحث بوده ارتباط مردم و مدیران است.همواره یکی از نیاز های مردم پاسخگویی مدیران بوده که به شکل صحیح انجام نمی گرفت.
                     در ارائه ی این پروژه سعی شده تا بستری را معرفی کند که مردم بتوانند مشکلات و اخبار خود را بیان کنند و حرف های خود را به نمایش بگذارند.
-                    از جمله مهم ترین اهداف این پروژه انتشار اخبار و حرف های مردم است که به تایید مدیران سایت میرسد. فاز کوچک تری از این پروژه سال 97 در فرمانداری دماوند اجرا شد که بازخورد مثبتی از طرف مردم داشت و امید است که فاز های بعدی پروژه کمک بیشتری به بهبود وضع مردم بکند.
+                    از جمله مهم ترین اهداف این پروژه انتشار اخبار و حرف های مردم است که به تایید مدیران سایت میرسد.
 
                 </p>
 
@@ -173,15 +173,14 @@
 
 
                             <div class="w-100 text-center ">
-                                <a href="/categories/3"><button type="button" class="w-100 btn bbbutton text-white "> فرهنگی اجتماعی</button></a>
-                                <a href="/categories/2"><button type="button" class="w-100 btn bbbutton text-white"> زیربنایی و توسعه</button></a>
-                                <a href="/categories/1"><button type="button" class="w-100 btn bbbutton text-white"> اقتصاد و کارآفرینی</button></a>
+
                                 <a href="/categories/6"><button type="button" class="w-100 btn bbbutton text-white"> عمران و شهری</button></a>
-                                <a href="/categories/5"><button type="button" class="w-100 btn bbbutton text-white"> کشاورزی و محیط زیست</button></a>
-                                <a href="/categories/4"><button type="button" class="w-100 btn bbbutton text-white"> علمی آموزشی</button></a>
-                                <a href="/categories/9"><button type="button" class="w-100 btn bbbutton text-white"> خبر</button></a>
-                                <a href="/categories/8"><button type="button" class="w-100 btn bbbutton text-white"> گردشگری</button></a>
-                                <a href="/categories/7"><button type="button" class="w-100 btn bbbutton text-white"> مشکلات</button></a>
+                                <a href="/categories/5"><button type="button" class="w-100 btn bbbutton text-white">خبر</button></a>
+                                <a href="/categories/4"><button type="button" class="w-100 btn bbbutton text-white">پیشنهادات</button></a>
+                                <a href="/categories/3"><button type="button" class="w-100 btn bbbutton text-white "> فرهنگی اجتماعی</button></a>
+                                <a href="/categories/2"><button type="button" class="w-100 btn bbbutton text-white">مشکلات</button></a>
+                                <a href="/categories/1"><button type="button" class="w-100 btn bbbutton text-white"> اقتصاد و کارآفرینی</button></a>
+
 
 
                             </div>
