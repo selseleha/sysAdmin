@@ -8,8 +8,13 @@ class comment extends Model
 {
     //
 
+    //این مدل برای ذخیره ی کامنت های هر پست استفاده می شود
+
     protected $fillable = [
-        'comment','valid','user_id','new_id'
+        'comment',//متن کامنت
+        'valid',//تاییدیه نمایش کامنت
+        'user_id',//ایدی فردی که کامنت را گذاشته است
+        'new_id'//ایدی پستی که زیر آن کامنت گذاشته شده
     ];
 
 

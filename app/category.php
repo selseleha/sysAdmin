@@ -8,8 +8,11 @@ class category extends Model
 {
     //
 
-    public function info(){
+    //مدل مربوط به جدول دسته بندی پست ها
 
+
+    public function info(){
+        //این تابع بیان میکند که هر دسته  دارای تعدادی پست یا info می باشد
         return $this->hasMany(info::class);
 
     }

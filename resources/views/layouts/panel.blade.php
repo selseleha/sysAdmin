@@ -66,6 +66,22 @@
                         </li>
 
                     </ul>
+
+                    <ul id="main-menu-navigation" data-menu="menu-navigation" class="navigation navigation-main">
+
+
+                        <li class=" nav-item"><a href="{{ url('/validation') }}"><i class="icon-support"></i><span data-i18n="" class="menu-title">بررسی پست ها</span></a>
+                        </li>
+
+                    </ul>
+
+                    <ul id="main-menu-navigation" data-menu="menu-navigation" class="navigation navigation-main">
+
+
+                        <li class=" nav-item"><a href="{{ url('/newcomment/list') }}"><i class="icon-support"></i><span data-i18n="" class="menu-title">بررسی کامنت ها</span></a>
+                        </li>
+
+                    </ul>
                 </div>
             </div>
             <div class="sidebar-background"></div>

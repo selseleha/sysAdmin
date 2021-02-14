@@ -15,10 +15,10 @@ class CommentController extends Controller
     public function index()
     {
 
-        $newcomments=comment::orderByRaw('valid')->join('infos', 'infos.id', '=', 'comments.new_id')->select('comments.*','infos.title')->paginate(5);
-
-
-
+        $newcomments=comment::orderByRaw('valid')->//دریافت کامنت ها با اولویت تایید نشده ها
+        join('infos', 'infos.id', '=', 'comments.new_id')->//اتصال با جدول پست ها برای دریافت نام پست مربوط به کامنت
+        select('comments.*','infos.title')->//دریافت اطلاعات مورد نظر
+        paginate(5);//نمایش ۵ کامنت در هر صفحه برای شلوغ نشدن صفحه
 
         return view('newcomment.index',compact('newcomments'));
 
@@ -47,8 +47,8 @@ class CommentController extends Controller
 
     public function edit($id)
     {
-        //
-        $comment=comment::findorfail($id);
+        //این تابع برای ویرایش کامنت هنگام تایید آن است
+        $comment=comment::findorfail($id);//پیدا کردن کامند با استفاده از آیدی
 
         return view('newcomment.edit',compact('comment'));
 
@@ -58,14 +58,15 @@ class CommentController extends Controller
 
     public function update($id,Request $request){
 
-
+        //پس از ویرایش کامنت میتواند تغییر کند یا تایید شود
 
 
         comment::where('id', $id)
-            ->update(['comment' => $request->comment,
+            ->update([
+
+                'comment' => $request->comment,
 
                 'valid'=>$request->valid,
-
 
             ]);
 
@@ -74,7 +75,7 @@ class CommentController extends Controller
 
     }
     public function accept($id){
-
+        //این تابع برای تایید سریع کامنت است
         comment::where('id', $id)
             ->update([
 
@@ -88,7 +89,7 @@ class CommentController extends Controller
     }
 
     public function destroy($id){
-
+//این تابع برای حذف کامنت میباشد
         comment::where('id', $id)
             ->delete();
 
@@ -100,18 +101,18 @@ class CommentController extends Controller
     public function storecomment(Request $request,$id){
 
 
-
+//این تابع برای ایجاد کامنت ایجاد شده است
 
         $userid = User::find(Auth::id());
+        //دریافت آدی فرد لاگین شده
         $userid= $userid->id;
 
-        // dd($request);
+
         $info=comment::create([
 
-            'comment'=>$request['text'],
-            'new_id'=>$id,
-            'commentV'=>'0',
-            'valid'=>'0',
+            'comment'=>$request['text'],//دریافت متن کامنت
+            'new_id'=>$id,//دریافت آیدی پست که زیر آن کامنت گذاشته شده
+            'valid'=>'0',//کامنت در ابتدا غیر معتبر است پس مقدار آن را صفر میدهیم 
             'user_id'=>$userid,
 
         ]);

@@ -7,7 +7,7 @@
             <div class="nazarat row my-4 pt-3">
                 <div class="col-sm-3 text-center">
                     <a style="background-color: #95b2ac"
-                       href="/news/{{$newcomment->new_id}}"> {{$newcomment->title}} </a>
+                       href="/infos/{{$newcomment->new_id}}"> {{$newcomment->title}} </a>
                 </div>
                 <div class="col-sm-9 text-right">
                     <p>{{$newcomment->comment}}</p>

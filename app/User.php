@@ -9,7 +9,7 @@ use Illuminate\Foundation\Auth\User as Authenticatable;
 class User extends Authenticatable
 {
     use Notifiable;
-
+//این مدل نشان دهنده ی اطلاعات کاربر هست که توسط توابع آماده ی لاراول ایجاد شده است
     /**
      * The attributes that are mass assignable.
      *
@@ -38,13 +38,13 @@ class User extends Authenticatable
     ];
 
     public function useradds(){
-
+        //هر کاربر یک اطلاعات تکمیلی دارد
         return $this->hasOne(useradds::class);
 
     }
 
     public function info(){
-
+        //هر کاربر میتواند تعتداد زیادی پست داشته باشد
         return $this->hasMany(info::class);
 
     }
